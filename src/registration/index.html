@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sleep Outside | Register</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="../js/main.js" type="module"></script>
+    <script src="../js/registration.js" type="module"></script>
+  </head>
+
+  <body>
+    <header class="divider"></header>
+
+    <main class="divider register-divider">
+      <div class="register-wrapper" id="login-form">
+        <div class="title-text">
+          <div class="title login">Login Form</div>
+          <div class="title signup">Signup Form</div>
+        </div>
+        <div class="form-container">
+          <div class="slide-controls">
+            <input type="radio" name="slide" id="login" checked />
+            <input type="radio" name="slide" id="signup" />
+            <label for="login" class="slide login">Login</label>
+            <label for="signup" class="slide signup">Register</label>
+            <div class="slider-tab"></div>
+          </div>
+          <div class="form-inner">
+            <form action="#" class="login">
+              <div class="field">
+                <input type="text" placeholder="Email Address" required />
+              </div>
+              <div class="field">
+                <input type="password" placeholder="Password" required />
+              </div>
+              <div class="pass-link">
+                <a href="#">Forgot password?</a>
+              </div>
+              <div class="field btn">
+                <div class="btn-layer"></div>
+                <input type="submit" value="Login" />
+              </div>
+              <div class="signup-link">
+                Not a member? <a href="">Register now</a>
+              </div>
+            </form>
+            <form action="#" class="signup" id="myForm">
+              <div class="field">
+                <input
+                  type="text"
+                  id="userName"
+                  name="userName"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Email Address"
+                  required
+                />
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  id="text"
+                  name="address"
+                  placeholder="Street Address"
+                  required
+                />
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  id="text"
+                  name="city"
+                  placeholder="City"
+                  required
+                />
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  id="text"
+                  name="state"
+                  placeholder="State"
+                  required
+                />
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  id="text"
+                  name="zipcode"
+                  placeholder="Zip Code"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label>Select an avatar</label>
+                <select name="avatar" required>
+                  <option disabled selected>Select avatar</option>
+                  <option>😀</option>
+                  <option>😏</option>
+                  <option>🦀</option>
+                  <option>🐞</option>
+                  <option>🧟</option>
+                  <option>🧙‍♂️</option>
+                </select>
+              </div>
+              <div class="field btn">
+                <div class="btn-layer"></div>
+                <input type="submit" value="Register" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

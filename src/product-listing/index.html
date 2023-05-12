@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sleep Outside | Home</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/product-listing.js" type="module"></script>
+  </head>
+  <body>
+    <header class="divider"></header>
+
+    <!-- HTML for modal window -->
+
+    <div class="modal-window">
+      <div class="modal-content"></div>
+    </div>
+    <div class="crumbs">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li id="active-crumb">
+          <a href="" id="products-crumb">Products</a>
+        </li>
+        <li><a href="/cart/index.html">Cart</a></li>
+        <li><a href="/checkout/index.html">Checkout</a></li>
+      </ul>
+    </div>
+    <main class="divider">
+      <label for="sort-options">Sort Items:</label>
+
+      <select name="sort-options" id="sort-options">
+        <option value="name-asc">Name Ascending</option>
+        <option value="name-desc">Name Descending</option>
+        <option value="price-asc">Price Ascending</option>
+        <option value="price-desc">Price Descending</option>
+      </select>
+
+      <section class="products">
+        <h2>Selection of <span class="title"></span></h2>
+        <ul class="product-list"></ul>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
